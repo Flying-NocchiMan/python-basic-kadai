@@ -15,8 +15,8 @@ Original file is located at
 def add_two_arguments(price, taxrate):
     # 消費税額を計算し変数に代入する
     consumption_tax = price * taxrate
-    # 金額と消費税の合計額を変数に代入する
-    total= price + consumption_tax
+    # 消費税を加えた合計額を返す
+    return price + consumption_tax
 
     # 変数totalを出力する
     print(f"{total}円")
